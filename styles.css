@@ -12,10 +12,20 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    color: hsl(178, 100%, 50%);
+    transition: 50ms;
+}
+
 .card{
     background-color: hsl(216, 50%, 16%);
     padding: 30px;
     border-radius: 25px;
+}
+
+.nft-image-box{
+    border-radius: 25px;
+    background-color: hsl(178, 100%, 50%);
 }
 
 .nft-image{
@@ -24,14 +34,19 @@ a{
     border-radius: 25px;
 }
 
+.nft-image:hover{
+    opacity: 0.5;
+    transition: 50ms;
+}
+
 .attribution{
     margin: 25px;
     text-align: center;
 }
 
-.card-title{
+/* .card-title{
     color: hsl(0, 0%, 100%);
-}
+} */
 
 .subcontainer{
     display: flex;

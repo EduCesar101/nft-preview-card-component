@@ -1,3 +1,7 @@
+html{
+    height: 100%;
+}
+
 body{
     background-color: hsl(217, 54%, 11%);
     font-family: 'Outfit', sans-serif;
@@ -7,6 +11,9 @@ body{
     justify-content: center;
     align-content: center;
     align-items: center;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0px;
 }
 
 main{
@@ -14,7 +21,8 @@ main{
     flex-wrap: wrap;
     flex-direction: column;
     padding: 0px;
-    width: 300px;
+    width: 18.75rem;
+    margin: 20px;
 }
 
 a{
@@ -38,7 +46,7 @@ a:hover{
 }
 
 .nft-image-box{
-    border-radius: 25px;
+    border-radius: 7px;
     /* background-image: url('./images/icon-view.svg');
     background-color: hsl(178, 100%, 50%); */
     background-size: 100%;
@@ -52,7 +60,7 @@ a:hover{
 .nft-image{
     width: 100%;
     height: auto;
-    border-radius: 25px;
+    border-radius: 7px;
 }
 
 /* .nft-image:hover{
@@ -103,7 +111,6 @@ hr{
 
 .nft-author{
     display: flex;
-    color: hsl(0, 0%, 100%);
     align-content: center;
     flex-wrap: wrap;
 }

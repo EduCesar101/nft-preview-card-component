@@ -58,6 +58,20 @@ a:hover{
     width: 75%;
 }
 
+#icon-view{
+    opacity: 0;
+    border-radius: 7px;
+    position: absolute;
+    width: 252;
+    height: 252px;
+}
+
+#icon-view:hover{
+    opacity: 1;
+    cursor: pointer;
+    background-color: hsla(178, 100%, 50%, 0.4);
+}
+
 .nft-image{
     width: 100%;
     height: auto;

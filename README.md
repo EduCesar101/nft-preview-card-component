@@ -8,5 +8,3 @@
 Tecnologias utilizadas:
 📃 HTML
 📃 CSS
-
-Lin
